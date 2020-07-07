@@ -5,6 +5,8 @@ import mask from "./modules/mask";
 import txtChekInput from "./modules/txtChekInput";
 import showMoreStyles from "./modules/showMoreStyles";
 import calc from "./modules/calc";
+import filter from "./modules/filter";
+import pictureSize from "./modules/pictureSize";
 
 window.addEventListener("DOMContentLoaded", () => {
   modal();
@@ -16,4 +18,6 @@ window.addEventListener("DOMContentLoaded", () => {
   txtChekInput('[name="message"]');
   showMoreStyles(".button-styles", "#styles .row");
   calc("#size", "#material", "#options", ".promocode", ".calc-price");
+  filter();
+  pictureSize(".sizes-block");
 });
