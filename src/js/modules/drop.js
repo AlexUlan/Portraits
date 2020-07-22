@@ -44,7 +44,6 @@ const drop = () => {
       let dots = nameFile.length > 6 ? "..." : ".";
       input.previousElementSibling.textContent =
         nameFile.substring(0, 6) + dots + expansionFile;
-      console.log(input.files);
     });
   });
 };
